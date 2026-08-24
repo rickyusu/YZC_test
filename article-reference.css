@@ -1,0 +1,38 @@
+/* Page-specific additions. The global colours and typography still come from style.css. */
+html { scroll-behavior: smooth; }
+.article-shell { padding-top: 56px; padding-bottom: 72px; }
+.article-layout { display: grid; grid-template-columns: minmax(190px, 240px) minmax(0, 1fr); gap: clamp(28px, 4vw, 64px); align-items: start; }
+.article-toc { position: sticky; top: 96px; }
+.article-toc-inner { padding: 22px 20px; border: 1px solid color-mix(in srgb, var(--deep) 20%, transparent); border-radius: 14px; background: color-mix(in srgb, white 72%, transparent); }
+.article-toc-title { margin: 0 0 12px; color: var(--deep); font-weight: 700; letter-spacing: .08em; }
+.article-toc ol, .mobile-toc ol { margin: 0; padding-left: 1.2rem; }
+.article-toc li, .mobile-toc li { margin: .55rem 0; }
+.article-toc a, .mobile-toc a { color: inherit; text-decoration: none; }
+.article-toc a:hover, .mobile-toc a:hover { color: var(--green); }
+.reference-article { min-width: 0; }
+.reference-header { text-align: center; margin-bottom: 38px; }
+.reference-kicker { margin: 0 0 8px; color: var(--green); letter-spacing: .16em; font-weight: 700; }
+.reference-lead { max-width: 760px; margin: 16px auto 0; opacity: .8; }
+.reference-intro { padding: 22px 0 10px; font-size: 1.04em; }
+.reference-section { scroll-margin-top: 110px; padding-top: 18px; }
+.reference-section + .reference-section { margin-top: 44px; padding-top: 46px; border-top: 1px solid color-mix(in srgb, var(--deep) 16%, transparent); }
+.reference-section h2 { margin-bottom: 22px; }
+.reference-section h3 { scroll-margin-top: 110px; margin-top: 34px; margin-bottom: 12px; color: var(--deep); }
+.reference-section h4 { scroll-margin-top: 110px; margin-top: 26px; margin-bottom: 8px; color: var(--green); font-size: 1.08em; }
+
+.article-numbered-list { padding-left: 1.35rem; }
+.article-numbered-list li { margin: .7rem 0; padding-left: .25rem; }
+.mobile-toc { display: none; margin: 0 0 28px; padding: 14px 18px; border: 1px solid color-mix(in srgb, var(--deep) 18%, transparent); border-radius: 12px; }
+.mobile-toc summary { cursor: pointer; color: var(--deep); font-weight: 700; }
+.back-to-top { position: fixed; right: 22px; bottom: 22px; display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; background: var(--deep); color: white; text-decoration: none; z-index: 20; }
+@media (max-width: 900px) {
+  .article-shell { padding-top: 34px; }
+  .article-layout { grid-template-columns: 1fr; }
+  .article-toc { display: none; }
+  .mobile-toc { display: block; }
+  .reference-section + .reference-section { margin-top: 30px; padding-top: 34px; }
+}
+@media (max-width: 560px) {
+  .article-shell { padding-top: 24px; padding-bottom: 48px; }
+  .back-to-top { right: 14px; bottom: 14px; width: 38px; height: 38px; }
+}
