@@ -1977,6 +1977,10 @@ h1 {
     transform: scale(1.05);
 }
 
+/* for wrapped photo and text */
+.image-wrap-box {
+    display: flow-root; 
+}
 
 .wrapped-image {
     float: left; 
@@ -1985,6 +1989,7 @@ h1 {
     max-width: 250px; 
     width: 100%;
     height: auto;
+    border-radius: 15px;
 }
 
 .photo-background-box {
@@ -2003,3 +2008,35 @@ h1 {
     /* 3. Dark text color to contrast with the newly brightened photo */
     color: #333333;  
 }
+
+
+/* More Flxible image box */
+.fleximage-wrap-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  min-height: 150px;
+  padding: 20px;
+}
+
+.img-right { flex-direction: row; }
+.img-left  { flex-direction: row-reverse; }
+
+/* FIX: Ensures the inner text flows normally from top to bottom */
+.text-group {
+  display: flex;
+  flex-direction: column; 
+  text-align: left;
+  max-width: 80%; /* Prevents text from hitting the image */
+}
+
+/* Optional: Removes default browser margins that disrupt alignment */
+.text-group h3, .text-group p {
+  margin: 0;
+}
+.text-group p {
+  margin-top: 5px;
+}
+
+
+/* New classes start here*/
