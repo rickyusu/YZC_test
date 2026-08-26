@@ -896,6 +896,10 @@
       display: none;
   }
 
+  .wrapped-image {
+      display: none;
+  }
+
   .service-grid{
       grid-template-columns:1fr;
       gap:14px;
