@@ -1,148 +1,136 @@
-<!doctype html>
-<html lang='zh-CN'>
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width,initial-scale=1'>
-  <title>yizhichan Slides (One Page Text)</title>
-  <style>
-    body {
-      margin:0;
-      padding:20px;
-      font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans SC','Microsoft YaHei',Arial,sans-serif;
-      background:#f9f9f9;
-      color:#222;
-      line-height:1.6;
-    }
-    section {
-      margin:60px auto;
-      max-width:900px;
-      padding:30px;
-      background:#fff;
-      border-radius:12px;
-      box-shadow:0 4px 12px rgba(0,0,0,0.08);
-      display:flex;
-      align-items:stretch;
-      gap:20px;
-    }
-    section:nth-child(even) {
-      flex-direction: row-reverse;
-    }
-    h2 {
-      margin-top:0;
-      font-size:28px;
-      color:#333;
-    }
-    p {
-      font-size:18px;
-      margin:10px 0;
-    }
-    .text {
-      flex:1;
-    }
-    .image {
-      flex:1;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-    }
-    .image img {
-      max-width:100%;
-      height:auto;
-      object-fit:cover;
-      border-radius:8px;
-    }
-    a {
-      color: #4da6ff; /* lighter blue */
-      text-decoration: none; /* remove underline if you want */
-    }
-    a:hover {
-      text-decoration: underline; /* underline on hover */
-      color: #3399ff; /* slightly darker on hover */
-    }
-
-    /* 📱 Mobile friendly */
-    @media (max-width: 768px) {
-      section {
-        flex-direction: column !important; /* stack text and image */
-      }
-      .image {
-        margin-top:20px;
-      }
-      .image img {
-        width:100%;
-        height:auto;
-      }
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>少林内劲一指禅 | Shaolin Neijin Yizhichan</title>
+  <meta name="description" content="少林内劲一指禅官方网站 - Shaolin Neijin Yizhichan website" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <section>
-    <div class="text">
-      <h2>少林内劲一指禅</h2>
-    </div>
-  </section>
+  <header id="home" class="inspire-header">
+  <div class="inspire-nav">
+    <a class="inspire-brand" href="https://www.neijin-qigong.com/" aria-label="German">
+      <img class="inspire-seal" src="images/yzc-logo.png" alt="Logo">
+    </a>
+    <a class="inspire-brand" >
+      <img class="inspire-wordmark" src="images/yzc_cnlogo.png" alt="">
+    </a>
+    <a class="inspire-brand" href="index2.html" aria-label="Chinese">
+      <img class="inspire-seal" src="images/yzc-stamp.gif" alt="Chinese">
+    </a>
 
-  <section>
-    <div class="text">
-      <h2>郑博音大师</h2>
-      <p>郑博音大师是少林内劲一指禅的第二十代传人。他出生于中医武术世家，自幼学习中医、医学气功、太极和传统武术，并师承阙阿水大师的嫡传大弟子姚金圣先生，潜心修炼三十余年。自1999年移居德国后，郑大师创立了“国际内劲气功康复养生学院”，并设有三所专业诊疗与康复中心。他致力于传播身心健康之道，凭借深厚的功力帮助全球数万人重获健康，同时培养了众多优秀的气功导师和康复治疗师。</p>
-    </div>
-    <div class="image">
-      <img src="images/boyin.jpg" alt="郑博音大师">
-    </div>
-  </section>
+    <button class="menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
 
-  <section>
-    <div class="text">
-      <h2>内劲一指禅 - 千年少林传承</h2>
-      <p>少林内劲一指禅是一套传承超过1500年的佛门上乘功法，起源于福建南少林。第十八代传人阙阿水大师于二十世纪六十年代初将此秘法公诸于世。</p>
-    </div>
-    <div class="image">
-      <img src="images/heritage.jpg" alt="千年少林传承">
-    </div>
-  </section>
+    <nav class="inspire-menu" aria-label="主导航">
+      <a href="#home">首页</a>
+      <a href="about.html">关于我们</a>
+      <a href="neijin.html">内劲一指禅</a>
+      <a href="qigong-museum.html">气功博物馆</a>
+      <a href="events.html">活动中心</a>
+      <a href="contact.html">联系我们</a>
+      <a href="en/index.html" class="lang-switch" aria-label="English">
+        <img src="images/uk-flag.svg" alt="English">
+      </a>
+    </nav>
+  </div>
+</header>
 
-  <section>
-    <div class="text">
-      <h2>少林内劲一指禅 - 功法体系</h2>
-      <p>该功法体系主要包括静功（站桩、坐桩、卧桩）、动功（包括脊柱养生功）和静动功（罗汉神功/禅舞），以及手印（含扳指）、冥想和音诀。它还包含一指禅气功医学，用于诊断、治疗、外气发放、一指禅推拿和意念治疗。</p> 
-    </div>
-    <div class="image">
-      <img src="images/group.jpg" alt="功法体系">
-    </div>
-  </section>
+<section class="hero-banner">
+    
+    <img class="hero-stamp" src="images/yzc-stamp.gif" alt="印章">
+</section>
 
-  <section>
-    <div class="text">
-      <h2>少林内劲一指禅 - 习练优势</h2>
-      <p>安全自然<br>
-      无需意守，不必入静，随其自然<br>
-      简单易学<br>
-      一桩一势，次第清晰，易学易练<br>
-      适合不同根基与年龄习练者<br>
-      功效明显<br>
-      快速打通气脉，提升阳气<br>
-      激发自愈潜能，增强免疫<br>
-      安神定志化解焦虑抑郁</p>
-    </div>
-    <div class="image">
-      <img src="images/head.jpg" alt="习练优势">
-    </div>
-  </section>
+<main>
 
-  <section>
-    <div class="text">
-      <h2>了解更多</h2>
-     <p>官方网站: <a href="https://neijin-qigong.com" target="_blank">https://neijin-qigong.com</a></p>
-     <p>教学视频: <a href="https://www.youtube.com/@NeijinQigong" target="_blank">https://www.youtube.com/@NeijinQigong</a></p>
-      <p>课程信息：<a href="https://filedn.com/lTh0v2Bogc301OgoFen42cL/" target="_blank">https://filedn.com/lTh0v2Bogc301OgoFen42cL/</a></p>
-      <p>联系我们：</p>
-      <p>Email: <a href="mailto:neijin.yzc@gmail.com">neijin.yzc@gmail.com</a></p>
-      <p>微信扫码</p>
+
+    <section id="about" class="section">
+      <article class="card">
+        <h1 class="lineage-title">欢迎访问少林内劲一指禅的网站</h1>
+           <p>我们非常高兴您对少林内劲一指禅功法感兴趣。在此网站上，我们将为您提供更详尽的信息，涵盖少林内劲一指禅的起源、背景、积极功效，以及学习与修习气功的各种途径。</p>
+           <p>少林内劲一指禅是一门易学易懂的功法，旨在调和身、心、灵，从而增强您的自身健康与生命元气。在中国，气功至今仍被视为一种重要的养生保健手段。如今，西方世界的人们也日益开始探索并发掘这项拥有数千年悠久历史的功法所蕴含的巨大健康与精神潜能。</p>
+           <p>少林内劲一指禅所传授的、源自郑博音大师传承体系的气功动功与静坐功法，通过一种全方位的整体观，对人体的身心各个层面进行和谐调理。只需经过短暂的修习，每个人都能切身感受到其带来的那种令人愉悦且充满活力的积极功效。</p>
+          <figure class="lineage-figure">
+            <img src="images/boyin.jpg" style="max-width: 450px; height: auto;" alt="">
+            <figcaption>少林内劲一指禅的第二十代传人：郑博音大师</figcaption>
+          </figure>
+          <p>如果您希望深入了解少林内劲一指禅体系的背景渊源，或者想要获取关于国际内劲气功学院的课程、研讨会、咨询服务，以及各类培训与进修机会的详细信息，我们诚挚地邀请您在本网站上稍作停留浏览，或直接与我们取得联系。</p>
+ 
+      </article>
+
+    </section>
+
+    <section class="mission-wrap section-tea">
+      <div class="section mission-grid">
+        <article class="mission-card">
+          <div class="photo-background-box">
+          <h3>我们的使命</h3>
+          <p>通过传承正宗的内劲气功，帮助现代人缓解压力、强身健体、延年益寿。</p>
+          <p>传承背景：本门功法底蕴深厚，结合了传统中医理论与经络学说，通过调心、调息、调身来培植内气。</p>
+          <p>我们的愿景：将我们的知识与技艺传授给更多的人，让后代子孙也能从中受益。我们发自内心地渴望能够为大众提供健康关怀，并在欧洲乃至西方世界的许多地方，建立起一座座充满和平
+          与和谐的“绿洲”。我们衷心期盼，有朝一日我们的梦想能够成真——建立一座集庇护、希望与疗愈于一体的中心。</p>
+          <a class="card-link" href="about.html">了解使命 →</a>
+          </div>
+        </article>
+
+        <article id="neijin" class="mission-card">
+          <div class="photo-background-box"  style="background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('images/south-shaolin2.jpg');">
+          <h3>少林内劲一指禅</h3>
+          <p>源自古老传承的动功与静功，助你恢复身心平衡。</p>
+          <p>
+          千年少林传承 - 少林内劲一指禅是一套传承超过1500年的佛门上乘功法,起源于福建南少林。第十八代传人阙阿水大师于二十世纪六十年代初将此秘法公诸于世。
+          </p>
+          <p>
+          功法体系 - 少林内劲一指禅的功法体系主要包括静功（站桩、坐桩、卧桩）、动功（包括脊柱养生功）和静动功（罗汉神功/禅舞），以及手印（含扳指）、冥想和音诀。它还包含一指禅气功医学，用于诊断、治疗、外气发放、一指禅推拿和意念治疗。
+          </p>
+          <a class="card-link" href="neijin.html">了解功法 →</a>
+          </div>
+        </article>
+
+        <article id="museum" class="mission-card">
+          <div class="photo-background-box" style="background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('images/003_001d.jpg');">
+          <h3>中华气功博物馆</h3>
+          <p>“气”一词常被译作“呼吸”或“空气”。然而，其真正的内涵远比这些表层含义要深邃与广博得多。“气”是中国哲学与传统中医理论中一个至关重要的核心概念。它既代表着个体生命所独有的原动力，亦象征着整个宇宙所蕴含的生命能量。
+             “功”意指精湛的技艺或功夫，它与个人的能力及技能紧密相关。</p>
+           <p>因此，“气功”一词可被理解为对“气”所进行的持之以恒的修炼与磨砺；若从更为高深的层面来解读，它则代表着一种能够驾驭并掌控“气”的能力——借此能力，习练者方能实现身心康健与自我疗愈。</p>
+      
+          <a class="card-link" href="qigong-museum.html">参观博物馆 →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+</main>
+
+   <a class="back-to-top" href="#home" aria-label="返回页面顶部">↑</a>
+  <footer id="contact" class="contact">
+    <div class="section contact-grid">
+      <div class="contact-card">
+        <h2>联系我们</h2>
+        <p>电子邮箱：<a href="mailto:neijin.yzc@gmail.com">neijin.yzc@gmail.com</a></p>
+        <p>网站：<a href="https://www.neijin-qigong.com/">www.neijin-qigong.com</a></p>
+        <p>YouTube：<a href="https://www.youtube.com/@NeijinYizhichan">www.youtube.com/@NeijinYizhichan</a></p>
+      </div>
+
+      <div class="contact-card">
+        <h2>其他</h2>
+        
+        <p><a href="legal-notice.html">法律声明</a></p>
+        <p><a href="privacy.html">隐私政策</a></p>
+        
+      </div>
     </div>
-    <div class="image">
-      <img src="images/wechat.jpg" alt="微信二维码">
+
+    <div class="footer">
+      <span>© 2026 少林内劲一指禅</span>
+      <span>中文 / English</span>
     </div>
-  </section>
+  </footer>
+
+  <script src="js/main.js"></script>
+
 </body>
 </html>
