@@ -154,7 +154,7 @@ const commonFooterCode = `
       <img src="images/yzc-logo.png" alt=" " style="width: 60px; height: auto; ">
     </a>
     &ensp;
-    <a href="neijin.html" aria-label="YZC" >
+    <a href="about.html" aria-label="YZC" >
       <img src="images/yzc_cnlogo.png" alt=" " style="width: 200px; height: auto;"class="center-image">
     </a>
     &ensp;
@@ -164,11 +164,9 @@ const commonFooterCode = `
 
     </p>
     <p style="text-align: center;">
-      <a href="about.html">关于我们</a> &ensp;
       <a href="neijin.html">内劲一指禅</a> &ensp;
-      <a href="qigong-museum.html">气功博物馆</a> &ensp;
-      <a href="events.html">活动中心</a>
-      </a>
+      <a href="events.html">活动中心</a> &ensp;
+      <a href="qigong-museum.html">气功博物馆</a>
     </p>
         
       </div>
