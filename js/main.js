@@ -97,6 +97,7 @@ const commonHeaderCode = `
 
 
  <header id="home" class="inspire-header">
+    <link rel="stylesheet" href="article-reference.css">
     <div class="inspire-nav">
     <a class="inspire-brand" href="https://www.neijin-qigong.com/" aria-label="German">
       <img class="inspire-seal" src="images/yzc-logo.png" alt="Logo">
@@ -169,13 +170,16 @@ const commonFooterCode = `
       <a href="qigong-museum.html">气功博物馆</a>
     </p>
         
+    <p style="text-align: center;">
+  
+      <a href="legal-notice.html">法律声明</a> &ensp;&ensp;
+      <a href="privacy.html">隐私政策</a>
+    </p>
       </div>
     </div>
 
     <div class="footer">
-      <span><a href="legal-notice.html">法律声明</a></span>
-      <span><a href="privacy.html">隐私政策</a></span>
-      <span>© 2026 少林内劲一指禅 (Copyright)</span>
+      <span>© 2026 国际内劲气功学院（International Neijin Qigong Academy）</span>
     </div>
   </footer>
     

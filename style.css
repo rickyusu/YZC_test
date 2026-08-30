@@ -1541,7 +1541,7 @@
     position: absolute;
     inset: -8px;
 
-    background-image: var(--banner-image, url("images/banner1.jpg"));
+    background-image: var(--banner-image, url("images/banner1.png"));
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center 1%;
