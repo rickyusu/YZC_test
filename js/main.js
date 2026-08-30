@@ -142,7 +142,7 @@ const commonFooterCode = `
       <div class="contact-card">
       
         <p>电子邮箱：<a href="mailto:neijin.yzc@gmail.com">neijin.yzc@gmail.com</a></p>
-        <p>中文网站：<a href="https://www.neijin-yizhichan.org/">www.neijin-yizhichan.org</a></p>
+        <p>中文网站：<a href="https://www.neijin-yizhichan.org/index2">www.neijin-yizhichan.org</a></p>
         <p>德文网站：<a href="https://www.neijin-qigong.com/">www.neijin-qigong.com</a></p>
         <p>YouTube：<a href="https://www.youtube.com/@NeijinYizhichan">www.youtube.com/@NeijinYizhichan</a></p>
       </div>
@@ -183,3 +183,12 @@ const commonFooterCode = `
 
 // Finds the placeholder by its ID and inserts the code inside it
 document.getElementById('Common-Footer-placeholder').innerHTML = commonFooterCode;
+
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleBtn = document.querySelector(".menu-toggle");
+  const menu = document.querySelector(".inspire-menu");
+
+  toggleBtn.addEventListener("click", () => {
+    menu.classList.toggle("is-open");
+  });
+});
