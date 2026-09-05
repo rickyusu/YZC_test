@@ -24,7 +24,20 @@ html { scroll-behavior: smooth; }
 .article-numbered-list li { margin: .7rem 0; padding-left: .25rem; }
 .mobile-toc { display: none; margin: 0 0 28px; padding: 14px 18px; border: 1px solid color-mix(in srgb, var(--deep) 18%, transparent); border-radius: 12px; }
 .mobile-toc summary { cursor: pointer; color: var(--deep); font-weight: 700; }
-.back-to-top { position: fixed; right: 22px; bottom: 22px; display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; background: var(--deep); color: white; text-decoration: none; z-index: 20; }
+.back-to-top { 
+  position: fixed; 
+  right: 22px; 
+  bottom: 22px; 
+  display: grid; 
+  place-items: center; 
+  width: 42px; 
+  height: 42px; 
+  border-radius: 35%; 
+  background: #09ee42; /* Changed from var(--deep) to purple */
+  color: white; 
+  text-decoration: none; 
+  z-index: 20; 
+}
 @media (max-width: 900px) {
   .article-shell { padding-top: 34px; }
   .article-layout { grid-template-columns: 1fr; }

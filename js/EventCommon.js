@@ -53,13 +53,12 @@ const commonEventCode = `
           </figure>
 
                    
-<A class='outline-button' href="https://filedn.com/lTh0v2Bogc301OgoFen42cL/课程信息/线上三年班/三年班简介1.mp4"> 三年班课程介绍（1）</A> 
-<A class='outline-button' href="https://filedn.com/lTh0v2Bogc301OgoFen42cL/课程信息/线上三年班/三年班简介3.mp4"> 三年班课程介绍（2）</A> 
-<A class='outline-button' href="https://filedn.com/lTh0v2Bogc301OgoFen42cL/课程信息/线上三年班/三年班简介3.mp4"> 三年班课程介绍（3）</A> 
-
-          <p style="margin-left: 40px;">
-            三年班信息(PDF)：<A  href="https://filedn.com/lTh0v2Bogc301OgoFen42cL/课程信息/线上三年班/一指禅三年筑基班 - 概要 9-4-2025.pdf">三年筑基班概要</A> 
-          </p>
+<A class='outline-button' href="https://filedn.com/lTh0v2Bogc301OgoFen42cL/课程信息/线上三年班/三年班简介1.mp4"> 三年班课程介绍（视频1）</A> 
+<A class='outline-button' href="https://filedn.com/lTh0v2Bogc301OgoFen42cL/课程信息/线上三年班/三年班简介3.mp4"> 三年班课程介绍（视频2）</A> 
+<A class='outline-button' href="https://filedn.com/lTh0v2Bogc301OgoFen42cL/课程信息/线上三年班/三年班简介3.mp4"> 三年班课程介绍（视频3）</A> 
+<p style="margin-top: 20px;">
+<A  class='outline-button' href="https://filedn.com/lTh0v2Bogc301OgoFen42cL/课程信息/线上三年班/一指禅三年筑基班 - 概要 9-4-2025.pdf">三年班筑基班概要(PDF)</A> 
+</p>
           <p>
              ⏳ 学制与上课形式（混合制）
           </p>
@@ -94,15 +93,14 @@ const commonEventCode = `
           </ul>
           
           <p>
-             📜 毕业与职业认证
+            📧 如何咨询与报名？查看最新的线上三年班信息，请点击链接：<A class='outline-button' href="https://filedn.com/lTh0v2Bogc301OgoFen42cL/课程信息/线上三年班/">线上三年班</A> 
           </p>
-          <ul>
-            <li>考核与证书：成功修满 3 年学业并通过考核的学员，将获得由郑博音大师签发的气功导师毕业证书。</li>
-            <li>健康保险预防项目对接：由于该学院在欧洲（尤其是德国）具有极高声誉，毕业的导师若具备相应的医学或护理背景，其开设的课程未来有机会申请纳入当地预防性医疗/健康保险报销体系。</li>
-          </ul>
-          <p>
-            📧 如何咨询与报名？查看最新的线上三年班信息。，请点击链接：<A class='outline-button' href="https://filedn.com/lTh0v2Bogc301OgoFen42cL/课程信息/线上三年班/">线上三年班</A> 
-          </p>
+
+
+<!-- 
+  This is a multiline comment.
+  Everything inside here is hidden.
+  <p>This paragraph will not render.</p>
 
 
           <h3>线下工作坊</h3>
@@ -200,12 +198,12 @@ const commonEventCode = `
 <A class='outline-button' href="https://filedn.com/lTh0v2Bogc301OgoFen42cL/课程信息/线下辟谷营/ZB_202605_01.pdf"> 线下辟谷营体验分享（1）</A> 
 <A class='outline-button' href="https://filedn.com/lTh0v2Bogc301OgoFen42cL/课程信息/线下辟谷营/ZB_202605_02.pdf"> 线下辟谷营体验分享（2）</A> 
 
-
-          <p>
+          <p style="margin-top: 20px;">
             如果您需要更多信息，请点击链接：<A class='outline-button' href="https://filedn.com/lTh0v2Bogc301OgoFen42cL/课程信息/线下辟谷营/">线下辟谷营</A> 
           </p>
 
-
+-->
+<!-- This is a comment and will not be visible on the website -->
 
 
 
@@ -266,7 +264,7 @@ if (targetElement) {
     targetElement.innerHTML = commonEventCode;
 }
 
-/* Common codes for "研讨会与静修营" */
+/* Common codes for "Masters " */
 const commonMasterCode = `
 
           <h3>阙阿水宗师</h3>
