@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Shop - Multiple Products</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Snipcart CSS -->
+  <link rel="preconnect" href="https://snipcart.com">
+  <link rel="preconnect" href="https://snipcart.com">
+  <link rel="stylesheet" href="https://snipcart.com" />
+</head>
+<body>
+
+  <main class="shop-container">
+    <h1>Our Featured Collection</h1>
+    
+    <!-- The Grid Container -->
+    <div class="product-grid">
+
+      <!-- PRODUCT 1 -->
+      <div class="product-card">
+        <img src="wallet.jpg" alt="Leather Wallet" class="product-thumb">
+        <h3>Leather Wallet</h3>
+        <p class="price">$45.00</p>
+        <button class="snipcart-add-item buy-button"
+          data-item-id="wallet-01"
+          data-item-name="Leather Wallet"
+          data-item-price="45.00"
+          data-item-url="/"
+          data-item-image="wallet.jpg">
+          Add to Cart
+        </button>
+      </div>
+
+      <!-- PRODUCT 2 -->
+      <div class="product-card">
+        <img src="backpack.jpg" alt="Canvas Backpack" class="product-thumb">
+        <h3>Canvas Backpack</h3>
+        <p class="price">$85.00</p>
+        <button class="snipcart-add-item buy-button"
+          data-item-id="backpack-02"
+          data-item-name="Canvas Backpack"
+          data-item-price="85.00"
+          data-item-url="/"
+          data-item-image="backpack.jpg">
+          Add to Cart
+        </button>
+      </div>
+
+      <!-- PRODUCT 3 -->
+      <div class="product-card">
+        <img src="watch.jpg" alt="Minimalist Watch" class="product-thumb">
+        <h3>Minimalist Watch</h3>
+        <p class="price">$120.00</p>
+        <button class="snipcart-add-item buy-button"
+          data-item-id="watch-03"
+          data-item-name="Minimalist Watch"
+          data-item-price="120.00"
+          data-item-url="/"
+          data-item-image="watch.jpg">
+          Add to Cart
+        </button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Snipcart JavaScript Setup -->
+  <script async src="https://snipcart.com"></script>
+  <div id="snipcart" data-config-modal-style="side" data-api-key="YOUR_PUBLIC_API_KEY_HERE" hidden></div>
+
+</body>
+</html>

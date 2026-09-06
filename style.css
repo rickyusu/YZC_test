@@ -1388,6 +1388,62 @@
 
 
 
+/* CSS Grid for Layout */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Individual Product Cards */
+.product-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.product-thumb {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.buy-button {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.2s ease;
+}
+
+.buy-button:hover {
+  background-color: #333;
+}
 
 
 
