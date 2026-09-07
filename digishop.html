@@ -10,75 +10,44 @@
   <link rel="stylesheet" href="article-reference.css">
 
 
-    <style>
-        body { font-family: 'Segoe UI', sans-serif; background: #f8f9fa; margin: 0; padding: 40px 20px; }
-        .header-container { display: flex; justify-content: space-between; align-items: center; max-width: 1000px; margin: 0 auto 40px; }
-        .shop-grid { display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; max-width: 1000px; margin: 0 auto; }
-        .item-card { background: white; border: 1px solid #e1e8ed; padding: 25px; border-radius: 12px; width: 300px; box-shadow: 0 6px 12px rgba(0,0,0,0.05); text-align: center; }
-        .item-card img { max-width: 100%; height: 160px; object-fit: cover; border-radius: 6px; }
-        .price-tag { font-size: 1.4rem; color: #27ae60; font-weight: bold; margin: 15px 0; }
-        
-        /* Buttons */
-        .cart-btn { background-color: #2c3e50; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-weight: bold; text-decoration: none; }
-        .add-btn { background-color: #007bff; color: white; border: none; padding: 12px 20px; border-radius: 6px; cursor: pointer; font-size: 1rem; width: 100%; font-weight: bold; }
-        .add-btn:hover { background-color: #0056b3; }
-        .demo-btn { background-color: #3498db; color: white; border: none; padding: 12px 20px; border-radius: 6px; cursor: pointer; font-size: 1rem; width: 100%; font-weight: bold; text-decoration: none; display: block; box-sizing: border-box;}
-    </style>
-
     <!-- 1. Load Snipcart CSS Styles -->
     <link rel="stylesheet" href="https://snipcart.com" />
 
 </head>
 <body>  
-          <!-- 1. THE PLACEHOLDER: Common-Header-placeholder -->
-     <!--  <div id="Common-Header-placeholder"></div> -->
-
-
 
   <main>
 
+    <article class="card">
+      <div class="photo-background-box">
+        <p style="text-align: left;">  
+          <a href="https://www.neijin-qigong.com/" aria-label="German" >
+            <img src="images/yzc-logo.png" alt=" " style="width: 55px; height: auto; ">
+          </a> &ensp;
+          <a href="about.html" aria-label="YZC" >
+            <img src="images/yzc_cnlogo.png" alt=" " style="width: 200px; height: auto;"class="center-image">
+          </a> &ensp;
+          <a href="index2.html" aria-label="Chinese">
+            <img src="images/yzc-stamp.gif" alt=" " style="width: auto; height:45px;">
+          </a>
+        </p>
 
-    <section id="Germany" class="section">
+        <p style="text-align: right;">
+          <a href="neijin.html">内劲一指禅</a> &ensp;
+          <a href="events.html">活动中心</a> &ensp;
+          <a href="qigong-museum.html">气功博物馆</a> &ensp;&ensp;
+          <A href="shopitems.html" class="lang-switch" aria-label=""> <img src="images/01_shop.jpg" alt=""> 商店 </A>
+        </p>
 
-      <article class="card">
-        <div class="photo-background-box">
-      
-    <p style="text-align: center;">  
-    <a href="https://www.neijin-qigong.com/" aria-label="German" >
-      <img src="images/yzc-logo.png" alt=" " style="width: 55px; height: auto; ">
-    </a>
-    &ensp;
-    <a href="about.html" aria-label="YZC" >
-      <img src="images/yzc_cnlogo.png" alt=" " style="width: 200px; height: auto;"class="center-image">
-    </a>
-    &ensp;
-    <a href="index2.html" aria-label="Chinese">
-      <img src="images/yzc-stamp.gif" alt=" " style="width: auto; height:45px;">
-    </a>
+        <h1 class="lineage-title"> 
+          商品列表 &ensp;&ensp;&ensp;
+          <button class="snipcart-checkout cart-btn">🛒 View Cart (<span class="snipcart-items-count">0</span>)</button> 
+        </h1>
+      </div>
+    </article>
 
-    </p>
-    <p style="text-align: center;">
-      <a href="neijin.html">内劲一指禅</a> &ensp;
-      <a href="events.html">活动中心</a> &ensp;
-      <a href="qigong-museum.html">气功博物馆</a>
-    </p>
-    
-          </div>
-      </article>
-    </section>
+    &ensp;&ensp;
 
-
-<div class="header-container">
-  <section id="Germany" class="section">
-    <header class="reference-header">
-          <h1 class="lineage-title"> 商品列表</h1>
-        </header>
-
-    
-        <!-- 2. The Global View Cart Button -->
-        <button class="snipcart-checkout cart-btn">🛒 View Cart (<span class="snipcart-items-count">0</span>)</button>
-    </div>
-    </section>
 
     <!-- THREE GRIDS -->
     <!-- DIGITAL PRODUCT (No Shipping Required) -->
@@ -175,12 +144,12 @@
 <div class="item-card">
     <img src="images/005_tjc_001.jpg" alt="Book" style="width: auto; height: 200px;">
     <h3>一指禅太极尺</h3>
-    <div class="price-tag">$35.00</div>
+    <div class="price-tag">$120.00</div>
     
     <button class="snipcart-add-item add-btn"
       data-item-id="P2-tjc-001"
       data-item-name="一指禅太极尺"
-      data-item-price="35.00"
+      data-item-price="120.00"
       data-item-url="digishop.html"
       data-item-shippable="true"
       data-item-description="High-quality printed book shipped to your door.">
