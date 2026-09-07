@@ -33,6 +33,20 @@
           clearInterval(forceCartCheck); // Kills the loop to protect performance
         }
       }, 200);
+
+      // 🚀 LISTEN FOR THE SUCCESSFUL PAYMENT HERE
+      Snipcart.events.on('cart.confirmed', async (cartConfirmResponse) => {
+        
+        // 1. Force the sliding cart sidebar to close cleanly
+        await Snipcart.api.theme.cart.close();
+        
+        // 2. Extract the unique transaction token from the order
+        const orderToken = cartConfirmResponse.token;
+        
+        // 3. Redirect the browser to your thank you page and pass the token
+        window.location.href = '/thankyou.html?order=' + orderToken;
+        
+      });
       
     });
 
