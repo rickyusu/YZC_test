@@ -44,7 +44,7 @@
         const orderToken = cartConfirmResponse.token;
         
         // 3. Redirect the browser to your thank you page and pass the token
-        window.location.href = '/thankyou.html?order=' + orderToken;
+        window.location.href = '/YZC_test/thankyou.html?order=' + orderToken;
         
       });
       
