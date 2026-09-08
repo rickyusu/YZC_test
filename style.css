@@ -419,6 +419,15 @@
       .contact-card {
         padding: 24px;
       }
+      
+      /* Sticky/fixed controls on the right side */
+      .inspire-brand {
+        position: flex;
+        top: 14px;
+        left: 13px;
+
+        justify-content: flex-start;
+      }
     }
 
     @media (max-width: 860px) and (orientation: landscape) {
@@ -1501,6 +1510,8 @@ h3 {
 @media (max-width: 860px) {
   .inspire-nav {
     position: relative;
+    margin: 0;
+    padding: 12px;
   }
 
   .inspire-header .menu-toggle {
@@ -1953,6 +1964,13 @@ h3 {
     gap: 9px;
   }
 
+  .inspire-wordmark{
+    display:block;
+    width:120px;
+    max-width:35vw;
+    height:auto;
+    object-fit:contain;
+  }
   .hero-banner {
     height: 300px;
   }
@@ -1985,8 +2003,8 @@ h3 {
 
 .inspire-wordmark{
     display:block;
-    width:150px;
-    max-width:35vw;
+    width:300px;
+    max-width:50vw;
     height:auto;
     object-fit:contain;
 }
@@ -1997,15 +2015,15 @@ h3 {
     }
 }
 
-@media (max-width:860px){
+@media (max-width: 860px){
     .inspire-wordmark{
         display:block;
-        width:150px;
+        width:180px;
         max-width:40vw;
     }
 }
 
-@media (max-width:860px) and (orientation:landscape){
+@media (max-width: 860px) and (orientation:landscape){
     .inspire-wordmark{
         display:none;
     }
