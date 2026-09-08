@@ -105,7 +105,7 @@ const commonHeaderCode = `
     <a class="inspire-brand" >
       <img class="inspire-wordmark" src="images/yzc_cnlogo.png" alt="">
     </a>
-    <a class="inspire-brand" href="index2.html" aria-label="Chinese">
+    <a class="inspire-brand" href="index.html" aria-label="Chinese">
       <img class="inspire-seal" src="images/yzc-stamp.gif" alt="Chinese">
     </a>
 
@@ -116,7 +116,7 @@ const commonHeaderCode = `
     </button>
 
     <nav class="inspire-menu" aria-label="主导航">
-      <a href="index2.html">首页</a>
+      <a href="index.html">首页</a>
       <a href="about.html">关于我们</a>
       <a href="neijin.html">内劲一指禅</a>
       <a href="qigong-museum.html">气功博物馆</a>
@@ -143,7 +143,7 @@ const commonFooterCode = `
       <div class="contact-card">
       
         <p>电子邮箱：<a href="mailto:neijin.yzc@gmail.com">neijin.yzc@gmail.com</a></p>
-        <p>中文网站：<a href="https://www.neijin-yizhichan.org/index2">www.neijin-yizhichan.org</a></p>
+        <p>中文网站：<a href="https://www.neijin-yizhichan.org/index">www.neijin-yizhichan.org</a></p>
         <p>德文网站：<a href="https://www.neijin-qigong.com/">www.neijin-qigong.com</a></p>
         <p>YouTube：<a href="https://www.youtube.com/@NeijinYizhichan">www.youtube.com/@NeijinYizhichan</a></p>
       </div>
@@ -159,7 +159,7 @@ const commonFooterCode = `
       <img src="images/yzc_cnlogo.png" alt=" " style="width: 150px; height: auto;"class="center-image">
     </a>
     &ensp;
-    <a href="index2.html" aria-label="Chinese">
+    <a href="index.html" aria-label="Chinese">
       <img src="images/yzc-stamp.gif" alt=" " style="width: auto; height:42px;">
     </a>
 
