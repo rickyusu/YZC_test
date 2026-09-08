@@ -152,15 +152,15 @@ const commonFooterCode = `
       
     <p style="text-align: center;">  
     <a href="https://www.neijin-qigong.com/" aria-label="German" >
-      <img src="images/yzc-logo.png" alt=" " style="width: 55px; height: auto; ">
+      <img src="images/yzc-logo.png" alt=" " style="width: 50px; height: auto; ">
     </a>
     &ensp;
     <a href="about.html" aria-label="YZC" >
-      <img src="images/yzc_cnlogo.png" alt=" " style="width: 200px; height: auto;"class="center-image">
+      <img src="images/yzc_cnlogo.png" alt=" " style="width: 150px; height: auto;"class="center-image">
     </a>
     &ensp;
     <a href="index2.html" aria-label="Chinese">
-      <img src="images/yzc-stamp.gif" alt=" " style="width: auto; height:45px;">
+      <img src="images/yzc-stamp.gif" alt=" " style="width: auto; height:42px;">
     </a>
 
     </p>
