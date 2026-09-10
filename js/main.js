@@ -122,9 +122,7 @@ const commonHeaderCode = `
       <a href="qigong-museum.html">气功博物馆</a>
       <a href="events.html">活动中心</a>
       <a href="contact.html">联系我们</a>
-      <a href="shopitems.html" class="lang-switch" aria-label="English">
-        <img src="images/01_shop.jpg" alt="English"> 商店
-      </a>
+      <a href="shopitems.html" > 商店🛒 </a>
     </nav>
   </div>
 </header>
