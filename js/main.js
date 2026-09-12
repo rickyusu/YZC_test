@@ -46,16 +46,16 @@ if (hero) {
 
 // Banner slideshow
 const banners = [
-    "images/practice.jpg",
-    "images/banner1.png",
-    "images/banner2.png",
-    "images/banner3.png",
-    "images/banner4.jpg",
-    "images/banner5.jpg",
-    "images/banner6.jpg",
-    "images/banner7.jpg",
-    "images/banner8.jpg",
-    "images/banner9.jpg"
+    "https://filedn.com/lTh0v2Bogc301OgoFen42cL/images/practice.jpg",
+    "https://filedn.com/lTh0v2Bogc301OgoFen42cL/images/banner1.png",
+    "https://filedn.com/lTh0v2Bogc301OgoFen42cL/images/banner2.png",
+    "https://filedn.com/lTh0v2Bogc301OgoFen42cL/images/banner3.png",
+    "https://filedn.com/lTh0v2Bogc301OgoFen42cL/images/banner4.jpg",
+    "https://filedn.com/lTh0v2Bogc301OgoFen42cL/images/banner5.jpg",
+    "https://filedn.com/lTh0v2Bogc301OgoFen42cL/images/banner6.jpg",
+    "https://filedn.com/lTh0v2Bogc301OgoFen42cL/images/banner7.jpg",
+    "https://filedn.com/lTh0v2Bogc301OgoFen42cL/images/banner8.jpg",
+    "https://filedn.com/lTh0v2Bogc301OgoFen42cL/images/banner9.jpg"
 ];
 
 const hero = document.querySelector(".hero-banner");
