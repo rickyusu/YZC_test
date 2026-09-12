@@ -620,7 +620,7 @@
 .top-photo {
   width: 100%;
   height: clamp(180px, 27vw, 420px);
-  background-image: url("images/practice.jpg");
+  background-image: url("images/practice.webp");
   background-size: cover;
   background-position: center 42%;
   border-bottom: 4px solid var(--deep);
@@ -1579,6 +1579,10 @@ h3 {
     height: clamp(240px, 30vw, 380px);
     overflow: hidden;
     isolation: isolate;
+    
+  /* Adds sharp rendering for Webkit (Chrome/Safari) and Firefox browsers */
+  image-rendering: -webkit-optimize-contrast; 
+  image-rendering: crisp-edges;
 
     /* Keep only a neutral base/overlay here.
        All slideshow images are rendered by ::before. */

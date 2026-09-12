@@ -46,16 +46,16 @@ if (hero) {
 
 // Banner slideshow
 const banners = [
-    "images/practice.jpg",
-    "images/banner1.png",
-    "images/banner2.png",
-    "images/banner3.png",
-    "images/banner4.jpg",
-    "images/banner5.jpg",
-    "images/banner6.jpg",
-    "images/banner7.jpg",
-    "images/banner8.jpg",
-    "images/banner9.jpg"
+    "images/practice.webp",
+    "images/banner1.webp",
+    "images/banner2.webp",
+    "images/banner3.webp",
+    "images/banner4.webp",
+    "images/banner5.webp",
+    "images/banner6.webp",
+    "images/banner7.webp",
+    "images/banner8.webp",
+    "images/banner9.webp"
 ];
 
 const hero = document.querySelector(".hero-banner");
