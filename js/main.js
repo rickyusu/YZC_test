@@ -43,7 +43,7 @@ if (hero) {
         );
     }, 2000);
 }*/
-
+  
 // Banner slideshow
 const banners = [
     "images/practice.webp",
