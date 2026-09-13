@@ -1581,7 +1581,7 @@ h3 {
     isolation: isolate;
     
   /* Adds sharp rendering for Webkit (Chrome/Safari) and Firefox browsers */
-  image-rendering: -webkit-optimize-contrast; 
+  image-rendering: -webkit-optimize-contrast; smooth;
   image-rendering: crisp-edges;
 
     /* Keep only a neutral base/overlay here.
