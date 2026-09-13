@@ -71,6 +71,7 @@ if (hero && banners.length > 0) {
             image.onload = resolve;
             image.onerror = resolve;
             image.src = src;
+            image.style.imageRendering = "-webkit-optimize-contrast"; /* added */
         });
     });
 
