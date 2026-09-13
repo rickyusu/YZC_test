@@ -1576,7 +1576,7 @@ h3 {
 .hero-banner {
     position: relative;
     width: 100%;
-    height: clamp(240px, 30vw, 380px);
+    height: clamp(240px, 30vw, 380px); 
     overflow: hidden;
     isolation: isolate;
     
@@ -1615,7 +1615,7 @@ h3 {
     position: absolute;
     inset: -8px;
 
-    background-image: var(--banner-image, url("images/banner1.png"));
+    background-image: var(--banner-image, url("images/banner1.webp"));
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center 1%;
